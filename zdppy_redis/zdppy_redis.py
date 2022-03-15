@@ -3,7 +3,7 @@ from typing import Dict, Union, Tuple, List
 
 from zdppy_log import Log
 
-import redis
+from  .libs import redis
 
 
 class Redis:
